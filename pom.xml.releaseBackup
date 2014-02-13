@@ -5,7 +5,7 @@
     <name>tomcat7-spring-hibernate-jpa</name>
     <description>Spring Hibernate JPA demo</description>
     <packaging>war</packaging>
-    <version>3.0-SNAPSHOT</version> 
+    <version>4.0-SNAPSHOT</version> 
 
     <properties>
         <org.springframework.version>3.2.4.RELEASE</org.springframework.version>
@@ -63,7 +63,7 @@
         </dependency>
 
         <!-- Servlet -->
-     	<dependency>
+      <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
@@ -164,7 +164,7 @@
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-gpg-plugin</artifactId>
       <configuration>
-            <passphrase>Nuevo*2016</passphrase>
+            <passphrase>test</passphrase>
         </configuration>
       <executions>
           <execution>
@@ -184,10 +184,11 @@
                 <version>1.0-beta-2</version>
             </extension>
         </extensions>
-    </build>
-    <scm>
-        <connection>scm:git:git://git.cloudbees.com/felix/spring-1238.git</connection>
-        <developerConnection>scm:git:git@git.cloudbees.com/felix/spring-1238.git</developerConnection>
+    </build> 
+    <scm>   
+        <connection>scm:git:git:///github.com/fbelzunc/spring-1238.git</connection>
+        <developerConnection>scm:git:git@github.com:fbelzunc/spring-1238.git</developerConnection>
+        <url>http://github.com/fbelzunc/spring-1238</url>
     </scm>
     <distributionManagement>
         <repository>
