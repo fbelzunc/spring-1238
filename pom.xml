@@ -5,7 +5,7 @@
     <name>tomcat7-spring-hibernate-jpa</name>
     <description>Spring Hibernate JPA demo</description>
     <packaging>war</packaging>
-    <version>4.8</version> 
+    <version>4.9-SNAPSHOT</version> 
 
     <properties>
         <org.springframework.version>3.2.4.RELEASE</org.springframework.version>
@@ -213,7 +213,7 @@
         <connection>scm:git:git:///github.com/fbelzunc/spring-1238.git</connection>
         <developerConnection>scm:git:git@github.com:fbelzunc/spring-1238.git</developerConnection>
         <url>http://github.com/fbelzunc/spring-1238</url>
-      <tag>tomcat7-spring-hibernate-jpa-clickstart-4.8</tag>
+      <tag>HEAD</tag>
   </scm>
     <distributionManagement>
         <repository>
