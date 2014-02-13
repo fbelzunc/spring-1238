@@ -184,14 +184,11 @@
                 <version>1.0-beta-2</version>
             </extension>
         </extensions>
-    </build>
-     <scm>
-        <connection>scm:git:https://git.cloudbees.com/felix/spring-1238.git</connection>
-        <tag>HEAD</tag>
-    </scm>
-    <scm>
-        <connection>scm:git:git://git.cloudbees.com/felix/spring-1238.git</connection>
-        <developerConnection>scm:git:git@git.cloudbees.com/felix/spring-1238.git</developerConnection>
+    </build> 
+    <scm>   
+        <connection>scm:git:git:///github.com/fbelzunc/spring-1238.git</connection>
+        <developerConnection>scm:git:git@github.com:fbelzunc/spring-1238.git</developerConnection>
+        <url>http://github.com/fbelzunc/spring-1238</url>
     </scm>
     <distributionManagement>
         <repository>
